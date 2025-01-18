@@ -10,10 +10,10 @@ This is a simple and interactive Tip Calculator built using React. The app allow
 
 ## Demo
 
-![Screenshot 1](public/Screenshot1.png)
+![Screenshot 1](tip-calculator/public/Screenshot1.png)
 *The Tip Calculator interface with inputs for bill amount and service ratings.*
 
-![Screenshot 2](public/Screenshot2.png)
+![Screenshot 2](tip-calculator/public/Screenshot2.png)
 *Displaying the calculated total amount and tip breakdown.*
 
 ## How to Use
