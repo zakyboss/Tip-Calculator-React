@@ -1,13 +1,119 @@
+/* General body styling */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Header styling */
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #4caf50;
+  padding: 20px;
+  color: white;
+}
+
+#logo {
+  height: 80px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin: 0;
+  text-align: center;
+}
+
+/* Footer styling */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4caf50;
+  padding: 15px;
+  color: white;
+}
+
+.footer h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Form container styling */
+.formContainer {
+  margin: 50px auto;
+  width: 40rem;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid #4caf50;
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer label {
+  margin: 10px 0 5px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.formContainer input,
+.formContainer select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.formContainer button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formContainer button:hover {
+  background-color: #45a049;
+}
+
+/* Tip container styling */
+.tipContainer {
+  margin: 20px auto;
+  padding: 20px;
+  width: 40rem;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tipStats {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+  .formContainer,
+  .tipContainer {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
 }
